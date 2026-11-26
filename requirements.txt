@@ -1,3 +1,6 @@
-streamlit
-groq
+st.title('AI Interview assistant')
+st.caption('practice interview with AI-generated question and constructive
+ tyr:
+clint = grop api_key=st.scrects['GROQ_API_KEY'])
+expect (keyerror, fileNotFoundError):
 
