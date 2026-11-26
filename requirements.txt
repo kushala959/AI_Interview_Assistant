@@ -21,5 +21,10 @@ meassage=[
 ]
 )
 output = response.choices[0].meassage.contentst.write(output)
+diff = st.selectbox("selectdifficultylevel",[
+"bringinner",
+"intermediate",
+"advance",
+])
 
 
