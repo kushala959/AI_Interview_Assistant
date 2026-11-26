@@ -10,6 +10,16 @@ role = st .selection
 "Data Anyalist",
 "Machine Learning Engineer",
 "software Engineer",
-"HR Execcutive"
+"HR Execcutive",
+if st.button("generate Interview question"):
+promt = 'Generate 5 interview question for the role of" + variable 
+response = client.chat.completion.create(
+model = "Openai/gpt-oss-120b";
+meassage=[
+{"role" : "system" "content":"your an expert  technical interviewwr"},
+{"role": "user" , "content":promt}
+]
+)
+output = response.choices[0].meassage.contentst.write(output)
 
 
