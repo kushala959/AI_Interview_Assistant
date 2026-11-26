@@ -4,3 +4,12 @@ st.caption('practice interview with AI-generated question and constructive
 clint = grop api_key=st.scrects['GROQ_API_KEY'])
 expect (keyerror, fileNotFoundError):
 
+role = st .selection
+"Python Developer",
+"Java Developer",
+"Data Anyalist",
+"Machine Learning Engineer",
+"software Engineer",
+"HR Execcutive"
+
+
